@@ -1,0 +1,125 @@
+#Write a Python program to calculate the product and sum of two numbers. If the 
+#product exceeds 1000, return their sum instead.
+num1=455
+num2=467
+sum=num1+num2
+product=num1*num2
+if (product>1000):
+    print(sum)
+else:
+    print(product)    
+
+#Accept numbers from a user and display them.
+number=input("number:")
+a=int(number)
+print(a)
+
+#Convert a decimal number to octal using print() output formatting
+
+decimal_number = int(input("Enter a decimal number: "))
+print(f"The octal representation of {decimal_number} is {decimal_number:03o}")
+
+#Display a float number with 2 decimal places using print().
+float_number=3.5567
+n=f"{float_number: .2f}"
+print(n)
+
+#Accept a list of 5 float numbers as input from the user.
+float_list=[]
+for i in range(5):  
+ x=float(input("float number:"))
+float_list.append(x)
+print(float_list)
+
+
+
+#Create a string made of the first, middle, and last character of a string
+string="abdulmoeed"
+length=len(string)
+middle_index=int(length/2)
+new_string=string[0]+string[middle_index]+string[-1]
+print(new_string)
+
+#Create a string made of the middle three characters of a string
+string1="abdulmoeed"
+length1=len(string1)
+middle=int(length1/2)
+new_str=string1[middle]
+print(new_str)
+
+
+
+
+
+#Split a string on hyphens.
+b="apple-banana-orange"
+print(b.split("-"))
+
+
+
+
+#Find the last position of a given substring in a string.
+str4="Hello, welcome to my world."
+y=str4.endswith("world.")
+print(y)
+
+
+
+#Replace each special symbol with # in a given string.
+s="hello"
+print(s.replace("hello","###"))
+
+
+#Count all letters, digits, and special symbols from a given string.
+st="hello world $##"
+print(st.count("l"))
+
+#Create a mixed string using rules where characters from two strings alternate
+
+
+
+#Test if two strings are balanced (all characters of one string are in the other)
+
+
+
+
+#Find all occurrences of a substring in a given string, ignoring case.
+txt = "Hello, welcome to my world."
+x = txt.rindex("e")
+print(x)
+
+
+#Calculate the sum and average of digits present in a string
+n1="345"
+n2="455"
+sum=n1+n2
+l1=len(n1)
+l2=len(n1)
+average=int((l1+l2)/2)
+print(sum)
+print(average)
+
+
+
+#write a program to count occurrences of all characters in a string.
+str6="Hello, welcome to my world"
+p=str6.count("",0,-1)
+print(p)
+
+#Reverse a given string.
+str3="hello"
+print(str3[::-1])
+
+
+# Remove special symbols/punctuation from a string.
+input_string = "Hello, World! This is @a test# string with $special^ symbols&."
+print(input_string.replace("$special^",""))
+
+
+
+# Remove all characters from a string except integers
+
+input_string = "Hello, World! This is @a test# string with $special^ symbols&."
+print(input_string.replace("Hello, World! This is @a test# string with $special^ symbols&.",""))
+
+
